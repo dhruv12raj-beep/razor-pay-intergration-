@@ -15,7 +15,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://127.0.0.1:5500",
-        "https://aizenstore.vercel.app/"
+        "https://aizenstore.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -73,13 +73,15 @@ def verify_payment(data: VerifyRequest):
             "success": False,
             "message": "Invalid payment signature"
         }
+    
+    BASE_URL = "https://aizenstore.vercel.app"
 
     if data.plan == "basic":
-        redirect_url = "http://127.0.0.1:5500/success.html?plan=basic"
+        redirect_url = f"{BASE_URL}/success.html?plan=basic"
     elif data.plan == "standard":
-        redirect_url = "http://127.0.0.1:5500/success.html?plan=standard"
+        redirect_url = f"{BASE_URL}/success.html?plan=standard"
     else:
-        redirect_url = "http://127.0.0.1:5500/success.html?plan=premium"
+        redirect_url = f"{BASE_URL}/success.html?plan=premium"
 
     return {
         "success": True,
