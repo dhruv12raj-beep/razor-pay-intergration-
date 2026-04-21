@@ -1,0 +1,19 @@
+AizenStore — Basic Plan
+
+What you unlocked:
+- 150+ DSA problems
+- Topic-wise categorization
+- Easy / Medium / Hard structure
+- Lifetime access
+
+Topics Included:
+- Arrays
+- Strings
+- Linked Lists
+- Stacks
+- Queues
+- Trees
+- Graphs
+- Dynamic Programming
+
+This is a demo file for testing your Razorpay delivery flow.

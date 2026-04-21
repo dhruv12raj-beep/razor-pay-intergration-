@@ -1,0 +1,16 @@
+AizenStore — Premium Plan
+
+What you unlocked:
+- Everything in Standard
+- Video walkthroughs
+- Interview strategy notes
+- Company-wise tags
+
+Mock Interview Tip:
+When stuck in an interview:
+1. Say your brute force approach first
+2. Discuss time complexity
+3. Improve it step by step
+4. Never stay silent
+
+This is a demo file for testing your Razorpay delivery flow.

@@ -1,0 +1,15 @@
+AizenStore — Standard Plan
+
+What you unlocked:
+- Everything in Basic
+- Full code solutions
+- Hints and approaches
+- Pattern recognition guide
+
+Example Pattern:
+Two Pointer Technique
+- Used in sorted arrays
+- Often appears in pair-sum problems
+- Time complexity improvement: O(n^2) → O(n)
+
+This is a demo file for testing your Razorpay delivery flow.
