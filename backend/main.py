@@ -50,6 +50,8 @@ def home():
 @app.post("/create-order")
 def create_order(data: OrderRequest):
     try:
+        print("PLAN =", data.plan)
+        print("AMOUNT RECEIVED =", data.amount)
         order = client.order.create({
             "amount": data.amount,
             "currency": "INR",
